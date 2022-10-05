@@ -34,7 +34,7 @@ function MySortabeColumn(props: { title: string, columnId: ProductColumn, order:
     }
   }
 
-  return <th onClick={onClick}>{props.title} <i className={iconClassName}></i></th>
+  return <th onClick={onClick} className="user-select-none" role="button">{props.title} <i className={iconClassName}></i></th>
 
 }
 
